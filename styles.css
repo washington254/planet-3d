@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Times New Roman", Times, serif;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.63)), url(./images/stars.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: 10;
+}
+#globeViz {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0%;
+}/*# sourceMappingURL=styles.css.map */
